@@ -3,6 +3,6 @@ if file[1]=="py":
      print("Python")
 elif file[1]=="xlsx":
      print("Excel")
-elif file[1]=="ppt"
-     print("PowerPoint")
+elif file[1]=="ppt":
+     print("PowerPoint") 
 
