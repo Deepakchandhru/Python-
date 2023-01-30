@@ -1,7 +1,7 @@
 import csv
 
 def write_into_csv(info_list):
-      with open("student_info.csv","a",newlines="") as csv_file:
+      with open("student_info.csv","a") as csv_file:
             writer= csv.writer(csv_file)
             
             writer.writerow(["Name:","Age:","Contact number:","Email ID:"])
@@ -13,7 +13,7 @@ while condition:
       student_info= input("Enter students information in the following order(Name, Age, Contact number,Email ID):")
       print("Entered information:"+ student_info)
 
-      student_info_list=student_info.split('')
+      student_info_list=student_info.split(' ')
       print("Entered split up list:"+str(student_info_list))
 
       write_into_csv(student_info_list)
