@@ -18,7 +18,7 @@ while condition:
 
       write_into_csv(student_info_list)
 
-      condition_check=input(Enter(Yes/No), if you want to continue for next student?)
+      condition_check=input("Enter(Yes/No), if you want to continue for next student?")
       if condition_check == "Yes":
             condition = True
       elif condition_check == "No":
